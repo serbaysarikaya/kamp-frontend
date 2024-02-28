@@ -1,6 +1,6 @@
 import { Category } from "./category";
-import { ResposseModel } from "./responseModel";
+import { ResponseModel } from "./responseModel";
 
-export interface CategoryResponseModel extends ResposseModel{
+export interface CategoryResponseModel extends ResponseModel{
   data:Category[]
 }
